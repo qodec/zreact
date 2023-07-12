@@ -1,0 +1,31 @@
+body {
+  font-family: 'Ubuntu', Tahoma;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: #eee;
+}
+nav a {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.banner {
+  background: black;
+  color: white;
+  min-height: 200px;
+}
+.features {
+  background: #FFC;
+  min-height: 200px;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: #eee;
+}
