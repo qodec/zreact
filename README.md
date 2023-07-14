@@ -21,6 +21,13 @@ For routing,
 - To install run: `npm i -D react-router-dom`
 -
 
+### CSS
+
+For css things,
+
+- To install run: `npm install -D unocss`
+-
+
 ### TODO \_\_\_
 
 ✅ Installing React with Vite <br />
@@ -28,16 +35,25 @@ For routing,
 ✅ Import css in a file<br />
 ✅ Working with Components<br />
 ✅ Props, Children<br />
-✅ Routing<br />
+✅ Routing<br /><br />
 
-🟠 CSS Utilities / Frameworks<br />
-🟠 useState<br />
-🟠 useEffect<br />
+✅ CSS Utilities / Frameworks<br />
+✅ useState<br />
+🟠 useEffect<br /><br />
+
 🟠 requests and apis<br />
 🟠 State Management: reactQuery, nanostores<br />
-🟠 Build for product<br />
+🟠 Build for production<br />
 🟠 deploy on firebase<br />
-🟠 Astro..., Htmx<br />
+
+🟠 Astro..., Htmx, Vue, React<br />
 🟠 Do real project (BizEpp)<br />
 
+-
+
+### ASSIGNMENT
+
+-
+- Create a No Page like 404 or NotFound Page
+- Put demo content and Style About, Contact and "404" Page
 -

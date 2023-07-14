@@ -2,6 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+import "virtual:uno.css";
+import "./assets/css/style.css";
+
 // import App from "./App.jsx";
 
 import Layout from "./components/Layout";
@@ -9,7 +12,6 @@ import Layout from "./components/Layout";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import "./assets/css/style.css";
 
 export function App() {
   return (
