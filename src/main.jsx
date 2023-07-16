@@ -12,6 +12,7 @@ import Layout from "./components/Layout";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import Notfound from "./pages/NotFound";
 
 export function App() {
   return (
@@ -22,7 +23,8 @@ export function App() {
           <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />} />
           <Route path="contact/:id" element={<Contact />} />
-          <Route path="*" element={<Home />} />
+          {/* <Route path="*" element={<Home />} /> */}
+          <Route path="*" element={<Notfound />} />
         </Route>
       </Routes>
     </BrowserRouter>
