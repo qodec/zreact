@@ -9,10 +9,10 @@ export default function Notfound() {
           <div className="mx-20px">
             <img src={error} alt="" className="w-500px"/>
           </div>
-          <div className="w-100% px-20px flex flex-col my-150px" >
-            <h1 className="text-blue text-center" >ERROR 404</h1>
-            <p className="lh-24px text-justify">Unforunatly you ran into a problem, please click on the button below to redirect back to the previous page</p>
-            <button className="px-15 py-10px bg-blue text-white b-blue">Redirect Back</button>
+          <div className="w-100% px-20px align-center flex flex-col my-40px" >
+            <h1 className="text-yellow text-center text-80px" >ERROR 404</h1>
+            <p className="lh-30px m-auto text-24px text-center py-20px">Unforunatly you ran into a problem, please click the redirect button to go back to the home page</p>
+            <button className="px-15 rounded-lg py-15px bg-yellow text-white b-yellow w-250px text-18px m-auto pointer">Redirect Back</button>
           </div>
         </div>
       </div>
