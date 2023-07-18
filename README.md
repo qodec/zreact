@@ -57,7 +57,8 @@ For css things,
 ✅ Create a No Page like 404 or NotFound Page<br />
 ✅ Put demo content and Style About, Contact and "404" Page<br /><br />
 
-- Mark as complete or not complete
-- Add tabs (internal nav) above to show ALL, complete task and Not complete task
-- On the tabs, add the totals (i.e ALL (200) | COMPLETE (120) | NOT COMPLETED (80))
+✅ Mark as complete or not complete
+✅ Add tabs (internal nav) above to show ALL, complete task and Not complete task
+✅ On the tabs, add the totals (i.e ALL (200) | COMPLETE (120) | NOT COMPLETED (80))
+
 - Pagination, Per 10: (Advanced / Optional)
