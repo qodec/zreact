@@ -1,8 +1,12 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function Home() {
   let [inputText, setInputText] = useState("I am AWESOME");
   let [bannerText, setBannerText] = useState("I am AWESOME");
+
+  useEffect(() => {
+    console.log("Jane Jane Jane Jane Jane ....");
+  }, [bannerText, inputText]);
 
   const handleChange = (e) => setInputText(e.target.value);
 

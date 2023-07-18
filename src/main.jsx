@@ -13,6 +13,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Notfound from "./pages/NotFound";
+import Todo from "./pages/Todo";
 
 export function App() {
   return (
@@ -23,7 +24,7 @@ export function App() {
           <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />} />
           <Route path="contact/:id" element={<Contact />} />
-          {/* <Route path="*" element={<Home />} /> */}
+          <Route path="todo" element={<Todo />} />
           <Route path="*" element={<Notfound />} />
         </Route>
       </Routes>
@@ -31,8 +32,4 @@ export function App() {
   );
 }
 
-ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+ReactDOM.createRoot(document.getElementById("root")).render(<App />);

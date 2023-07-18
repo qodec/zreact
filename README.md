@@ -39,9 +39,10 @@ For css things,
 
 ✅ CSS Utilities / Frameworks<br />
 ✅ useState<br />
-🟠 useEffect<br /><br />
+✅ useEffect<br /><br />
 
-🟠 requests and apis<br />
+✅ requests and apis (FETCH)<br />
+🟠 requests and apis (AXIOS)<br />
 🟠 State Management: reactQuery, nanostores<br />
 🟠 Build for production<br />
 🟠 deploy on firebase<br />
@@ -53,7 +54,10 @@ For css things,
 
 ### ASSIGNMENT
 
--
-- Create a No Page like 404 or NotFound Page
-- Put demo content and Style About, Contact and "404" Page
--
+✅ Create a No Page like 404 or NotFound Page<br />
+✅ Put demo content and Style About, Contact and "404" Page<br /><br />
+
+- Mark as complete or not complete
+- Add tabs (internal nav) above to show ALL, complete task and Not complete task
+- On the tabs, add the totals (i.e ALL (200) | COMPLETE (120) | NOT COMPLETED (80))
+- Pagination, Per 10: (Advanced / Optional)

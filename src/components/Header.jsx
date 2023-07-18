@@ -10,7 +10,8 @@ export default function Header(props) {
           <Link to="/">HOME</Link>
           <Link to="/about">ABOUT</Link>
           <Link to="/contact">CONTACT</Link>
-          <Link to="/xxxxxxx">No Page</Link>
+          <Link to="/todo">TODO</Link>
+          <Link to="/xxxxxxx">NO PAGE</Link>
         </nav>
       </header>
     </>
