@@ -2,6 +2,9 @@ import { useEffect, useState } from "react";
 
 export default function Todo() {
   const [todos, setTodos] = useState([]);
+  const [complete, setComplete] = useState();
+
+
 
   function getTodos() {
     const data = fetch("https://jsonplaceholder.typicode.com/todos")
@@ -38,7 +41,7 @@ export default function Todo() {
               </div>
               <div className="text-right">
                 <div className="inline-block bg-pink-400 rounded-full p-1.5">
-                  <div className={"rounded-full p-3 " + (todo.completed ? "bg-gray-800" : "bg-white")}></div>
+                  <div onClick={()=> {setComplete((!todo.completed)); console.log(todo.completed);}} className={"rounded-full p-3 " + (todo.completed ? "bg-gray-800" : "bg-white")} ></div>
                 </div>
               </div>
             </div>
