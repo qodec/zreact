@@ -14,21 +14,41 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Notfound from "./pages/NotFound";
 import Todo from "./pages/Todo";
+import Photos from "./pages/Photos";
+import Photo from "./pages/Photo";
+
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+
+// Create a client
+// const queryClient = new QueryClient();
+
+const queryClient = new QueryClient({
+  defaultOptions: {
+    queries: {
+      refetchOnWindowFocus: false,
+      staleTime: 1000 * 10 * 60,
+    },
+  },
+});
 
 export function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="contact" element={<Contact />} />
-          <Route path="contact/:id" element={<Contact />} />
-          <Route path="todo" element={<Todo />} />
-          <Route path="*" element={<Notfound />} />
-        </Route>
-      </Routes>
-    </BrowserRouter>
+    <QueryClientProvider client={queryClient}>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Home />} />
+            <Route path="about" element={<About />} />
+            <Route path="contact" element={<Contact />} />
+            <Route path="photos" element={<Photos />} />
+            <Route path="photos/:id" element={<Photo />} />
+            <Route path="contact/:id" element={<Contact />} />
+            <Route path="todo" element={<Todo />} />
+            <Route path="*" element={<Notfound />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
+    </QueryClientProvider>
   );
 }
 

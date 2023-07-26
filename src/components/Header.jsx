@@ -11,6 +11,7 @@ export default function Header(props) {
           <Link to="/about">ABOUT</Link>
           <Link to="/contact">CONTACT</Link>
           <Link to="/todo">TODO</Link>
+          <Link to="/photos">PHOTOS</Link>
           <Link to="/xxxxxxx">NO PAGE</Link>
         </nav>
       </header>

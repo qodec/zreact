@@ -42,12 +42,14 @@ For css things,
 ✅ useEffect<br /><br />
 
 ✅ requests and apis (FETCH)<br />
-🟠 requests and apis (AXIOS)<br />
-🟠 State Management: reactQuery, nanostores<br />
+✅ requests and apis (AXIOS)<br />
+🟠 State Management: reactQuery, redux, nanostores<br />
 🟠 Build for production<br />
 🟠 deploy on firebase<br />
 
 🟠 Astro..., Htmx, Vue, React<br />
+🟠 Dynamic pages<br />
+
 🟠 Do real project (BizEpp)<br />
 
 -
@@ -60,5 +62,4 @@ For css things,
 ✅ Mark as complete or not complete
 ✅ Add tabs (internal nav) above to show ALL, complete task and Not complete task
 ✅ On the tabs, add the totals (i.e ALL (200) | COMPLETE (120) | NOT COMPLETED (80))
-
-- Pagination, Per 10: (Advanced / Optional)
+✅ Pagination, Per 10: (Advanced / Optional)
