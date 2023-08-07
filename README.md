@@ -43,9 +43,10 @@ For css things,
 
 ✅ requests and apis (FETCH)<br />
 ✅ requests and apis (AXIOS)<br />
-🟠 State Management: reactQuery, redux, nanostores<br />
-🟠 Build for production<br />
-🟠 deploy on firebase<br />
+✅ State Management: reactQuery, redux, nanostores<br />
+✅ Build for production<br />
+✅ deploy on firebase (https://github.com/leyume/tp)<br />
+🟠 deploy on Github Action (CICD)<br />
 
 🟠 Astro..., Htmx, Vue, React<br />
 🟠 Dynamic pages<br />

@@ -5,7 +5,7 @@ import { getPhotos } from "../data";
 export default function Photos() {
   // Queries
   const query = useQuery({ queryKey: ["photos"], queryFn: getPhotos });
-  // console.log({ query });
+  console.log({ query });
 
   return (
     <>
