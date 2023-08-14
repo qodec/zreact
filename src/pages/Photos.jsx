@@ -10,7 +10,7 @@ export default function Photos() {
   return (
     <>
       <section className="banner bg-black text-white text-4xl py-8 text-center items-center justify-center">
-        Photos
+        Gallery
         {query?.isSuccess && <div className="text-sm">Total - {query.data.length}</div>}
       </section>
       <section className="py-12 px-8 grid grid-cols-4 gap-5">
