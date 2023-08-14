@@ -8,7 +8,7 @@
     "devc": "vite --port 8561 --host",
     "devx": "vite --port 8436 --host",
     "build": "vite build",
-    "deploy": "vite build && node_modules/.bin/firebase deploy",
+    "deploy": "vite build && npx firebase deploy",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },

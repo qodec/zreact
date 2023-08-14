@@ -5,7 +5,9 @@ export default function Header(props) {
     <>
       {props.children}
       <header className="bg-pink-400 flex py-4 px-8 justify-between">
-        <div>{props.logo || "Logo"}</div>
+        <div>
+          <b>{props.logo || "Logo"}</b>
+        </div>
         <nav className="flex gap-4">
           <Link to="/">HOME</Link>
           <Link to="/about">ABOUT</Link>

@@ -5,7 +5,7 @@ import { Outlet } from "react-router-dom";
 export default function Layout() {
   return (
     <>
-      <Header logo="CHARLES" />
+      <Header logo="ZREACT" />
       <main>
         <Outlet />
       </main>

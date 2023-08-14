@@ -64,3 +64,13 @@ For css things,
 ✅ Add tabs (internal nav) above to show ALL, complete task and Not complete task
 ✅ On the tabs, add the totals (i.e ALL (200) | COMPLETE (120) | NOT COMPLETED (80))
 ✅ Pagination, Per 10: (Advanced / Optional)
+
+## Deployments
+
+AWS - Amazon Web Service
+GCP - Google Cloud Platoform (Firebase)
+Azure - Microsoft
+
+DigitalOcean
+Linode
+Vultr
